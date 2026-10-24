@@ -1,8 +1,9 @@
-
 import { useMemo, useState } from "react";
 import { Search, SlidersHorizontal, BookOpen, Clock3, CalendarDays, ArrowRight, ChevronLeft, ChevronRight, Sparkles, X} from "lucide-react";
 import { Link } from "react-router";
 import Navbar from "../common/Navbar";
+import Footer from "../common/Footer";
+
 
 const quizzes = [
   {
@@ -532,6 +533,8 @@ export default function BrowseQuizzes() {
           </nav>
         )}
       </main>
+
+      <Footer/>
     </div>
   );
 }

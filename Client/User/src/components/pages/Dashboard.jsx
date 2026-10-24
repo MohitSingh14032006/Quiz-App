@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import Navbar from "../common/Navbar";
 import { Link } from "react-router";
+import Footer from "../common/Footer";
 
 const stats = [
   {
@@ -346,10 +347,7 @@ export default function History() {
           })()}
         </section>
 
-        <footer className="mt-12 border-t border-slate-200 py-6 text-center text-sm text-slate-400">
-          Keep learning, keep growing. &copy; {new Date().getFullYear()}{" "}
-          QuizMaster
-        </footer>
+        <Footer/>
       </div>
     </main>
   );

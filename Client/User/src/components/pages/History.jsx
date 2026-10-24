@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ArrowLeft, Trophy, Target, Clock3, CheckCircle2, XCircle, ChevronDown, ChevronUp, RotateCcw, BookOpen, CalendarDays} from "lucide-react";
 import { Link } from "react-router";
 import Navbar from "../common/Navbar";
+import Footer from "../common/Footer";
 
 const quizResult = {
   title: "JavaScript Fundamentals",
@@ -415,6 +416,8 @@ export default function History() {
           </Link>
         </div>
       </main>
+
+      <Footer/>
     </div>
   );
 }
